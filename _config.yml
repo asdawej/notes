@@ -1,3 +1,4 @@
 title: asdawej's notes
 include:
   - "*.md"
+  - "**/*.md"
