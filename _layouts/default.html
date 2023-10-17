@@ -38,9 +38,14 @@
         }
 
         pre {
-            border: 3px solid black;
+            border: 3px solid #FF9966;
             color: black;
             background-color: rgba(192, 192, 192, 0.5);
+            overflow-x: scroll;
+        }
+
+        .t {
+            color: blueviolet;
         }
     </style><!--链接样式、文字颜色与背景图片-->
 </head>
@@ -101,7 +106,7 @@
 
             <!--中间区块-->
             <div id="content_div" style="background-color:rgba(255, 255, 255, 0.5); width:800px; float:left">
-                <div id="content" style="padding:20px">
+                <div id="content" class="t" style="padding:20px">
                     {{ content }}
                 </div>
             </div>
