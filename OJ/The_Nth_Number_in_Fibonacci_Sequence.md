@@ -16,6 +16,8 @@
 
 打印 `Fib(n) mod 9973`.
 
+_提示:_ 关于这个问题, 以及这门课程 (电子系数据结构与算法) 有一些故事在这里: [My Experience As a TA](https://kainwenblog.wordpress.com/2017/09/21/my-experience-as-a-ta/)
+
 ### IO格式
 
 输入:
@@ -24,15 +26,13 @@
 N
 n1
 ...
-nN
 ```
 
 输出：
 
 ```
-Fib(n1)
+Fib(n1) mod 9973
 ...
-Fib(nN)
 ```
 
 ### 样例
