@@ -14,7 +14,15 @@
             <!--中间区块-->
             <div id="content_div" style="background-color:rgba(255, 255, 255, 0.5); width:800px; float:left">
                 <div id="content" class="t" style="padding:20px">
-                    {{ content }}
+                    {{ content | split:'<!--split-->' | first}}
+                </div>
+            </div>
+
+            <!--右区块-->
+            <div id="R_menu" style="background-color:rgba(192, 192, 192, 0.5); width:350px; float:left">
+                <!--右上菜单-->
+                <div id="RU_menu" style="padding:20px">
+                    {{ content | split:'<!--split-->' | last}}
                 </div>
             </div>
         </div>
